@@ -1,9 +1,4 @@
-languages:
-  - ruby
-tags:
-  - methods
-  - arguments
-  - variables
-  - default arguments
-resources: 1
+def say_hello(name = "Ruby Programmer")
+put "Hello, #{name} !"
+end
 
